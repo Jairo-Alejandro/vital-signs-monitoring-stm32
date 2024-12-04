@@ -21,10 +21,10 @@ int8_t validHeartRate;   // Indicador de validez de HR
 // Pines para el AD8232
 #define LO_PLUS_PIN PA3  // Conectar al pin L+ del AD8232
 #define LO_MINUS_PIN PA4 // Conectar al pin L- del AD8232
-#define ECG_PIN A0       // Conectar el pin de salida del AD8232 (ECG)
+#define ECG_PIN PA0       // Conectar el pin de salida del AD8232 (ECG)
 
 // Pines para el OneWire (sensor de temperatura)
-#define ONE_WIRE_BUS A5
+#define ONE_WIRE_BUS PA5
 
 // Instancias de hardware
 HardwareSerial Serial1(PA10, PA9); // RX, TX
